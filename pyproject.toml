@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "whitehamster26_brain_games"
-version = "0.1.0"
+version = "0.1.1"
 description = "This is my first hexlet project :)"
 authors = ["WhiteHamster"]
 packages = [
@@ -16,6 +16,7 @@ flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [[tool.poetry.source]]
 name = "whitehamster26_brain_games"

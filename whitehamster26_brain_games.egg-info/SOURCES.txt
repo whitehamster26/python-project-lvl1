@@ -1,0 +1,9 @@
+README.md
+brain_games/__init__.py
+brain_games/scripts/__init__.py
+brain_games/scripts/brain_games.py
+whitehamster26_brain_games.egg-info/PKG-INFO
+whitehamster26_brain_games.egg-info/SOURCES.txt
+whitehamster26_brain_games.egg-info/dependency_links.txt
+whitehamster26_brain_games.egg-info/entry_points.txt
+whitehamster26_brain_games.egg-info/top_level.txt

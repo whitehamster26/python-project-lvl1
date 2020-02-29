@@ -6,3 +6,5 @@
 [![Build Status](https://travis-ci.org/whitehamster26/python-project-lvl1.svg?branch=master)](https://travis-ci.org/whitehamster26/python-project-lvl1)
 
 [![asciicast](https://asciinema.org/a/L3s6xxq71fYZHhwTHZRL4eQnO.svg)](https://asciinema.org/a/L3s6xxq71fYZHhwTHZRL4eQnO)
+
+[![asciicast](https://asciinema.org/a/RaJbZOhHhuQnDmt3lqZ0gu64B.svg)](https://asciinema.org/a/RaJbZOhHhuQnDmt3lqZ0gu64B)

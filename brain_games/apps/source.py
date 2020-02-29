@@ -1,4 +1,10 @@
-def main(name, game):
+from .. import cli
+
+
+def main(game, description):
+    print('Welcome to the Brain Games!')
+    print(description)
+    name = cli.welcome_user()
     correct_answers = 0
     user_answer = None
     boolean_answers = {True: 'yes', False: 'no'}
@@ -9,7 +15,9 @@ def main(name, game):
             while user_answer not in boolean_answers.values():
                 user_answer = input(f'Question: {question} ')
         else:
-            user_answer = int(input(f'Question: {question} '))
+            while not str(user_answer).isdigit():
+                user_answer = input(f'Question: {question} ')
+            user_answer = int(user_answer)
         if user_answer == answer:
             print('Correct!')
             correct_answers += 1

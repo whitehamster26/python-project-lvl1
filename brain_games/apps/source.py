@@ -9,7 +9,13 @@ def main(game, description):
     user_answer = None
     boolean_answers = {True: 'yes', False: 'no'}
     while correct_answers < 3:
+        asked_question = []
         question, answer = game.main()
+        if question in asked_question:
+            while question in asked_question:
+                question, answer = game.main()
+        else:
+            asked_question.append(question)
         if type(answer) == bool:
             answer = boolean_answers[answer]
             while user_answer not in boolean_answers.values():

@@ -6,6 +6,11 @@ authors = ["WhiteHamster"]
 packages = [
   { include = "brain_games" },
 ]
+classfires = [
+  "Environment :: Console"
+  "Topic :: Games/Entertainment :: Puzzle Games"
+]
+repository = ["https://github.com/whitehamster26/python-project-lvl1"]
 
 [tool.poetry.dependencies]
 python = "^3.6"

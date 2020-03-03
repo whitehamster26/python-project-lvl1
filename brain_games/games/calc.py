@@ -14,7 +14,3 @@ def main():
         answer = first_number * second_number
     question = f'{first_number} {operators[operator]} {second_number}'
     return question, answer
-
-
-if __name__ == '__main__':
-    main()

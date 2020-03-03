@@ -20,7 +20,7 @@
 <strong>Brain-gcd</strong>
 <p>Find the greatest common divisor of given numbers.</p>
 
-[![asciicast](https://asciinema.org/a/HPJ24AY5jTLWBR1RnCjyjHJU7.svg)](https://asciinema.org/a/HPJ24AY5jTLWBR1RnCjyjHJU7)
+[![asciicast](https://asciinema.org/a/Kz6UR56Mq5khHOHhdvbhe9BWL.svg)](https://asciinema.org/a/Kz6UR56Mq5khHOHhdvbhe9BWL)
 
 <strong>Brain-progression</strong>
 <p>What number is missing in the progression?</p>

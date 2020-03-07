@@ -1,11 +1,9 @@
-from ..games import prime
-from ..apps import source
+from brain_games.games import prime
+from brain_games import engine
 
 
 def main():
-    description = 'Answer "yes" if given number is prime. Otherwise answer \
-"no".'
-    source.main(prime, description)
+    engine.run(prime)
 
 
 if __name__ == '__main__':

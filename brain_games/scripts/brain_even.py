@@ -1,10 +1,9 @@
-from ..games import even
-from ..apps import source
+from brain_games.games import even
+from brain_games import engine
 
 
 def main():
-    description = 'Answer "yes" if number even otherwise answer "no".'
-    source.main(even, description)
+    engine.run(even)
 
 
 if __name__ == '__main__':

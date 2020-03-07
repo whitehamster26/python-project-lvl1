@@ -1,10 +1,9 @@
-from ..games import progression
-from ..apps import source
+from brain_games.games import progression
+from brain_games import engine
 
 
 def main():
-    description = 'What number is missing in the progression?'
-    source.main(progression, description)
+    engine.run(progression)
 
 
 if __name__ == '__main__':

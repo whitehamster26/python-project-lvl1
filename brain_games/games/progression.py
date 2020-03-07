@@ -1,23 +1,14 @@
 from random import randint
 
+DESCRIPTION = 'What number is missing in the progression?'
 
-def main():
-    def make_progression(items, step):
-        missed_item = randint(1, len(items))
-        for index, item in enumerate(items):
-            if index == missed_item:
-                answer = items[index] * step
-                items[index] = ".."
-                pass
-            else:
-                items[index] *= step
-                items[index] = str(items[index])
-        return ' '.join(items), answer
+
+def start():
+    start = randint(1, 20)
     step = randint(1, 10)
-    items = [item+1 for item in range(10)]
-    question, answer = make_progression(items, step)
+    items = [str(start + item*step) for item in range(9)]
+    missed_item = randint(0, len(items))
+    answer = items[missed_item]
+    items[missed_item] = '..'
+    question = ' '.join(items)
     return question, answer
-
-
-if __name__ == "__main__":
-    main()

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "whitehamster26_brain_games"
-version = "0.5.2"
+version = "0.5.5"
 description = "This is my first hexlet project :)"
 authors = ["WhiteHamster"]
 packages = [

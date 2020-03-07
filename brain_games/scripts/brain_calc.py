@@ -1,10 +1,9 @@
-from ..games import calc
-from ..apps import source
+from brain_games.games import calc
+from brain_games import engine
 
 
 def main():
-    description = 'What is the result of the expression?'
-    source.main(calc, description)
+    engine.run(calc)
 
 
 if __name__ == '__main__':

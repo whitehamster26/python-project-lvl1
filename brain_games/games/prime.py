@@ -5,7 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer \
 
 
 def prime_check(number):
-    result = False  # in case if number = 0
+    result = False  # in case if number = 0 or 1
     if number > 1:
         if number in (2, 3, 5):
             result = True

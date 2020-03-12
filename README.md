@@ -1,5 +1,7 @@
 # python-project-lvl1
-<h1>There's my first Hexlet project</h1>
+<h2>There's my first Hexlet project</h2>
+<p>Big thanks to <a href="https://github.com/astynax" targer="_blank">Aleksei Pirogov</a> for remarks and <a href="https://ru.hexlet.io/">Hexlet</a> for this project and experience. </p>
+<p><a href="https://ru.hexlet.io/blog/posts/moy-pervyy-proekt-na-hexlet-v-professii-python-programmist" target="_blank">There</a> I wrote about my impressions of this project (Russian language).</p>
 
 <a href="https://codeclimate.com/github/whitehamster26/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e09e69d381f0c1ba531c/maintainability" /></a>
 
